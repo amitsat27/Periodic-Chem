@@ -1,8 +1,8 @@
 from flask import Flask,render_template,request,json
-from flask_cors import CORS
+
 app = Flask(__name__)
-CORS(app)
-# app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+
+
 
 @app.route("/")
 def landing1():
