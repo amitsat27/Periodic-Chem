@@ -18,7 +18,7 @@ def completetable():
 @app.route("/electronicconfigprac.html",methods=["GET","POST"])
 def electronpractice():
  
-    return render_template("electronicconfigprac1.html")
+    return render_template("electronicconfigprac.html")
 
 @app.route("/match.html")
 def matchelements():

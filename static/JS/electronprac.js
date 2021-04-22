@@ -333,7 +333,7 @@ $(document).ready(function () {
                         if(data.elements[i].number > 2){
 
                             let short = data.elements[i].electron_configuration_semantic[1]  + data.elements[i].electron_configuration_semantic[2]
-                            $.getJSON("PTJ.json",function(data){
+                            $.getJSON("https://github.com/amitsat27/Periodic-Chem/blob/master/static/JS/PTJ.json",function(data){
                                 for(var he = 0;he<data.elements.length;he++){
                                     if(data.elements[he].symbol == short){
                                         hec = he
@@ -423,7 +423,7 @@ $(document).ready(function () {
 
 
 
-            $.getJSON("PTJ.json", function (data) {
+            $.getJSON("https://github.com/amitsat27/Periodic-Chem/blob/master/static/JS/PTJ.json", function (data) {
 
                 class_circles = data.elements[i].shells.length;
 
