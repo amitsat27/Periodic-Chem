@@ -331,7 +331,7 @@ $(document).ready(function () {
                         if(data.elements[i].number > 2){
 
                             let short = data.elements[i].electron_configuration_semantic[1]  + data.elements[i].electron_configuration_semantic[2]
-                            $.getJSON('JSON/PTJ.json',function(data){
+                            $.getJSON("{{ url_for('static',filename='JSON/PTJ.json')}}",function(data){
                                 for(var he = 0;he<data.elements.length;he++){
                                     if(data.elements[he].symbol == short){
                                         hec = he
@@ -418,7 +418,7 @@ $(document).ready(function () {
         }
 
         function get_data(i) {
-            $.getJSON("JSON/PTJ.json", function (data) {
+            $.getJSON("{{ url_for('static',filename='JSON/PTJ.json')}}", function (data) {
 
                 class_circles = data.elements[i].shells.length;
 
@@ -456,15 +456,7 @@ $(document).ready(function () {
                         
         }
 
-
     });
-
-
-
-
-
-
-
 
 });
 

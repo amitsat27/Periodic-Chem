@@ -15,9 +15,9 @@ def landing2():
 def completetable():
     return render_template("complete_table.html")
 
-@app.route("/electronconfigprac.html")
+@app.route("/electronicconfigprac.html")
 def electronpractice():
-    return render_template("electronconfigprac.html")
+    return render_template("electronicconfigprac.html")
 
 @app.route("/match.html")
 def matchelements():
