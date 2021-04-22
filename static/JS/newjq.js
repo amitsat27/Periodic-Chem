@@ -18,7 +18,7 @@ $('periodictable.html').ready(function () {
     $('.cell').click(function () {
         let global = $(this).find('.at_num').text();
         // $('.main').empty();
-        $('.main').load('element-info.html', function () {
+        $('.main').load('https://raw.githubusercontent.com/amitsat27/Periodic-Chem/master/templates/element-info.html', function () {
             console.log(global)
             $.getJSON("https://raw.githubusercontent.com/amitsat27/Periodic-Chem/master/static/JS/PTJ.json", function (data) {
                 console.log(data.elements[global - 1].name);
