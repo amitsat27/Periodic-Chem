@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+
+    
     // inserting names 
     let s = '<div class="card"><div class="card-header" id="headingOne"><h2 class="mb-0"><button class="btn bg-success">Practice</button><button  class="my-button btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"></button></h2></div><div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample"><div class="card-body"><p id="right-ele-name"> </p></div></div></div>';
 
@@ -331,7 +333,7 @@ $(document).ready(function () {
                         if(data.elements[i].number > 2){
 
                             let short = data.elements[i].electron_configuration_semantic[1]  + data.elements[i].electron_configuration_semantic[2]
-                            $.getJSON("{{ url_for('static',filename='JSON/PTJ.json')}}",function(data){
+                            $.getJSON("PTJ.json",function(data){
                                 for(var he = 0;he<data.elements.length;he++){
                                     if(data.elements[he].symbol == short){
                                         hec = he
@@ -418,7 +420,10 @@ $(document).ready(function () {
         }
 
         function get_data(i) {
-            $.getJSON("{{ url_for('static',filename='JSON/PTJ.json')}}", function (data) {
+
+
+
+            $.getJSON("PTJ.json", function (data) {
 
                 class_circles = data.elements[i].shells.length;
 

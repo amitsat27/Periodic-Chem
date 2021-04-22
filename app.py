@@ -1,5 +1,5 @@
-from flask import Flask,render_template,request
-from datetime import datetime
+from flask import Flask,render_template,request,json
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -15,8 +15,9 @@ def landing2():
 def completetable():
     return render_template("complete_table.html")
 
-@app.route("/electronicconfigprac.html")
+@app.route("/electronicconfigprac.html",methods=["GET","POST"])
 def electronpractice():
+ 
     return render_template("electronicconfigprac.html")
 
 @app.route("/match.html")
@@ -27,8 +28,9 @@ def matchelements():
 def nemo():
     return render_template("mnuemonics_final.html")
 
-@app.route("/news.html")
+@app.route("/news.html",methods=["GET"])
 def news():
+    
     return render_template("news.html")
 
 @app.route("/videos.html")
@@ -38,6 +40,7 @@ def tutorials():
 @app.route("/periodictable.html")
 def periodictable():
     return render_template("periodictable.html")
+
 
 if __name__=="__main__":
     app.run(debug=True)
