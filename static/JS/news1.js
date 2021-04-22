@@ -2,6 +2,7 @@ const data = null;
 let newsAccordion = document.getElementById('newsAccordion');
 
 const xhr = new XMLHttpRequest();
+const xhr2 = new XMLHttpRequest();
 xhr.withCredentials = false;
 
 xhr.addEventListener("readystatechange", function () {
@@ -34,6 +35,8 @@ xhr.addEventListener("readystatechange", function () {
 
 });
 // https://bing-news-search1.p.rapidapi.com/news/search?q=periodic%20AND%20table%20&count=6
+xhr2.open("GET", "/static/JS/news1.js");
+xhr2.send();
 xhr.open("GET", "https://bing-news-search1.p.rapidapi.com/news/search?q=Science%20AND%20PeriodicTable&count=10");
 xhr.setRequestHeader("x-bingapis-sdk", "true");
 xhr.setRequestHeader("x-rapidapi-key", "d4000169damsh088fcb998b637b8p1812cejsnda14d40ccf49");
