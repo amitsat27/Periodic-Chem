@@ -1,0 +1,119 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+body{
+    background-image: linear-gradient(to right , rgba(199, 188, 32, 0) , rgb(212, 244, 245));
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#root{
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 90px;
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: seagreen;
+    border-width: 2px;
+}
+#available_elements , #available_slots{
+    background-image: linear-gradient(to right , rgba(211, 165, 165, 0.2) , rgb(197, 171, 171));
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    width: 700px;
+    height: 200px;
+    border-style: none;
+    border-color: red;
+    border-radius: 15px;
+}
+#available_elements  div , #available_slots div{
+    background-image: linear-gradient(to right , rgb(102, 199, 162,0.5) , rgba(102,199,162,0.6));
+    margin-top: 60px;
+    margin-left: 13px;
+    text-align: left;
+    position: relative;
+    float: left;
+    height: 80px;
+    width: 80px;
+    border-style: none;
+    border-radius: 10px;
+}
+#available_slots div.hovered{
+    background-color: teal;
+}
+#available_elements div.ui-draggable-dragging {
+    -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+#No{
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-size: medium;
+    color:brown;
+}
+#Element{
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 340px;
+    left: 40px;
+    font-size: medium;
+    color:brown;
+}
+#available_elements div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#H.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#Li.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#Na.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#K.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#Rb.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#Cs.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#Fr.correct{
+    background-color: salmon;
+    font-size: xx-large;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: lightyellow;
+    top: 120px;
+    right: 320px;
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    border-radius: 10px;
+    color: red;
+    text-decoration: none;
+}
