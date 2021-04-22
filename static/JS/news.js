@@ -2,7 +2,7 @@ const data = null;
 let newsAccordion = document.getElementById('newsAccordion');
 
 const xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
+xhr.withCredentials = false;
 
 xhr.addEventListener("readystatechange", function () {
   if (this.readyState === this.DONE) {
