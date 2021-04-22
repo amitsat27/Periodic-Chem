@@ -6,7 +6,7 @@ const xhr2 = new XMLHttpRequest();
 xhr.withCredentials = false;
 
 xhr.addEventListener("readystatechange", function () {
-  if (this.readyState === this.DONE) {
+  if (this.readyState === this.DONE && this.status===200) {
     let json = JSON.parse(this.responseText);
     let articles = json.value
     console.log(articles);
