@@ -27,6 +27,10 @@ $('home.html').ready(function () {
   $('#electronicconfig').click(function(){
     window.location.href = 'electronicconfigprac.html'
   });
+  
+  $('#quiz-mod').click(function(){
+    window.location.href = 'quiz.html'
+  });
 
   
 

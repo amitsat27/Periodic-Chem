@@ -161,10 +161,14 @@ button{
     animation: bounce 1.2s;
     background-color: rgb(253, 251, 104);
  }
+ #quiz-mod:hover{
+    animation: bounce 1.2s;
+    background-color: rgb(253, 251, 104);
+ }
 
 /* media */
  @media (max-width:684px){
-    #fill,#match,#tutorials,#nemo,.button,#electronicconfig{
+    #fill,#match,#tutorials,#nemo,.button,#electronicconfig,#quiz-mod{
         font-size: 0.8rem;
     }
 

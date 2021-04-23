@@ -14,7 +14,7 @@ $('document').ready(function () {
   
   
 
-  $.getJSON(, function (data) {
+  $.getJSON('https://raw.githubusercontent.com/amitsat27/Periodic-Chem/master/static/JS/quiz.json', function (data) {
     myQuestions = data.elements;
     console.log(myQuestions)
     buildQuiz(myQuestions);
