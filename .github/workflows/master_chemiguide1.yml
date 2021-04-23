@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'chemiguide1'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_fae549434d13455999f37aa52340e416 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_0e4f8fb73369480bb3a73e274571afbc }}
