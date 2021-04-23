@@ -62,7 +62,8 @@ $('document').ready(function () {
   
       // gather answer containers from our quiz
       const answerContainers = quizContainer.querySelectorAll('.answers');
-  
+      $(".title").empty();
+      $(".title").append("Thank You for Participation");
       // keep track of user's answers
       let numCorrect = 0;
       flag = 1;
@@ -111,6 +112,17 @@ $('document').ready(function () {
     function showSlide(n) {
       slides[currentSlide].classList.remove('active-slide');
       slides[n].classList.add('active-slide');
+      if(n != 0){
+
+        var sselector = `input[name=question${n-1}]:checked`;
+        var  userAnswer = $(sselector).length;
+        if(userAnswer == 1){
+          var st = '#btn'+String(n);
+          console.log(st)
+          $(st).css({"background-color":"#47ff73"});
+
+        }
+      }
       console.log(n)
       currentSlide = n;
 
