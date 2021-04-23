@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
+
 body{
-	font-size: 20px;
 	font-family: Arial;
 	color: #333;
   font-weight: 300;
-  text-align: center;
+
   background: linear-gradient(to right, #ffffff, #98ecd2);
 }
 
@@ -47,8 +47,9 @@ p{
   background-color: #ecf0f1;
 }
 .question{
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 10px;
+  text-align: left;
 }
 .answers {
   margin-bottom: 20px;
@@ -59,17 +60,7 @@ p{
   display: block;
   margin-bottom: 10px;
 }
-button{
-  font-family: 'Work Sans', sans-serif;
-	font-size: 22px;
-	background-color: #279;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-}
+
 button:hover{
 	background-color: #38a;
 }
