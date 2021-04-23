@@ -1,0 +1,104 @@
+{ 
+  
+    "elements" :[ 
+    {
+      "question" : "The atomic number of an atom is the number of ______ in the atom's nucleus.",
+      "answers" : {
+        "a": "Electrons",
+        "b": "Neutrons",
+        "c": "Protons"
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "The rows in Periodic Table are called __________.",
+      "answers": {
+        "a": "Periods",
+        "b": "Classes",
+        "c": "Chemicals",
+        "d": "Blocks"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question" : "Which one of the following elements is very rare?",
+      "answers" : {
+        "a" : "Thorium",
+        "b" : "Uranium",
+        "c" : "Francium",
+        "d" : "Nihonium"
+      },
+      "correctAnswer" : "c"
+    },
+    {
+      "question" : "How many periods and groups are present in the periodic table?",
+      "answers" : {
+        "a" : "7 periods and 18 groups",
+        "b" : "8 periods and 7 groups",
+        "c" : "7 periods and 7 groups",
+        "d" : "8 periods and 8 groups"
+      },
+      "correctAnswer" : "a"
+    },
+    {
+      "question": "Which of the following forms the basis of the modern periodic table?",
+      "answers" : {
+        "a" : "Atomic Number",
+        "b" : "Atomic Mass",
+        "c" : "Number of Nucleons",
+        "d" : "All of these"
+      },
+      "correctAnswer" : "a"
+    },
+    {
+      "question" : "What happens to the electropositive character of elements on moving from left to right in a periodic table?",
+      "answers" : {
+        "a" : "Increases",
+        "b" : "Decreases",
+        "c" : "First increases then decreases",
+        "d" : "First decreases then increases"
+      },
+      "correctAnswer" : "b"
+    },
+    {
+      "question" : "What is the other name for group 18th elements?",
+      "answers" : {
+        "a" : "Noble Gases",
+        "b" : "Alkali Metals",
+        "c" : "Alkaline earth metals",
+        "d" : "Halogens"
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question" : "Which of the following elements has 2 shells and both are completely filled?",
+      "answers": {
+        "a" : "Helium",
+        "b" : "Neon",
+        "c" : "Calcium",
+        "d" : "Boron"
+      },
+      "correctAnswer" : "b"
+    },
+    {
+      "question" : "Which of the following statements are TRUE?",
+      "answers" : {
+        "a" : "The first 94 elements in Periodic Table occur naturally",
+        "b" : "Elements 95 to 118 have only been synthesized in laboratories or nuclear reactors",
+        "c" : "Alkali Metals occupy the left-most column of the Periodic Table",
+        "d" : "All are True"
+      },
+      "correctAnswer" : "d"
+    },
+    {
+      "question" : "Who proposed Law of Triads?",
+      "answers" : {
+        "a" : "Dobereiner",
+        "b" : "John Newlands",
+        "c" : "Lothan Grenger",
+        "d" : "Michal Philip Gardener"
+      },
+      "correctAnswer" : "a"
+    }
+    ]
+}
